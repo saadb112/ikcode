@@ -46,7 +46,10 @@ app.get("/", ()=>{
     msg
  })
 const save =  await create.save()
-res.send("send")
+// alert("Thanks")
+setTimeout(() => {
+  res.redirect("/");
+}, 2000);
 })
   app.listen(port, ()=>{
       console.log("started")

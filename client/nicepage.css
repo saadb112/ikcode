@@ -19,6 +19,48 @@
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0; }
+header.u-header .u-sheet-1{
+  width: calc(((100% - 1140px) / 2) + 1140px) !important;
+}
+
+
+.u-footer{
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 140px;
+
+}
+.u-footer img{
+  width: 250px;
+    position: absolute;
+    left: 0;
+
+}
+.ContactBtn{
+  background-image: none;
+  border-style: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin: 20px auto 0;
+  background-color: #c59573;
+  cursor: pointer;
+  padding: 10px 24px;
+}
+.ContactBtn:hover{
+  color:white;
+  background-color: #000 !important;
+
+}
+.u-footer .links a{
+  font-size :1rem;
+  margin:0 .5rem;
+}
+.u-footer .links{
+  
+}
 
 .fr-view img.fr-rounded, .fr-view .fr-img-caption.fr-rounded img {
   border-radius: 10px;
@@ -376,6 +418,9 @@ html {
 body {
   margin: 0;
 }
+
+
+
 article,
 aside,
 details,
